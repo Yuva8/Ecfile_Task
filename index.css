@@ -81,11 +81,6 @@
   color: red;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-}
-
 .container {
   margin-top: 150px;
 }
@@ -586,7 +581,7 @@
     cursor: pointer;
     transition: 0.1s ease-out;
     color: #3640fc;
-    font-size: 10px;
+    font-size: 18px;
   }
   .phone {
     display: block;
@@ -606,17 +601,150 @@
     background-color: #f4fcbe;
     color: red;
   }
-  .menu {
-    display: flex;
-    justify-content: center;
-  }
+
   .logo {
     float: left;
-    margin: 3px 3px;
-    width: 60px;
-    height: 20px;
+    margin: 8px 8px;
+    width: 100px;
+    height: 40px;
     background-image: url(img/ecfileR.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.header .menu-icon {
+  padding: 20px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+
+.header .menu-icon .nav-icon {
+  background: #666;
+  display: block;
+  height: 3px;
+  width: 20px;
+  position: relative;
+}
+
+.header .menu-icon .nav-icon:before {
+  background: #333;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  top: 5px;
+  transition: 0.2s ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 20px;
+  position: absolute;
+  top: -5px;
+  transition: 0.2s ease-out;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 400px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background-color: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.footersec {
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  background: #22076d;
+  justify-items: center;
+  justify-content: center;
+}
+
+.footersec1 {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  background: #22076d;
+  justify-content: center;
+}
+
+.company-details {
+  margin: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+@media (min-width: 920px) {
+  .footersec {
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 100%;
+  }
+  .company-details {
+    margin-left: 100px;
+    width: 100%;
+    color: #fff;
+  }
+}
+
+.company-details a {
+  margin: 10px;
+  padding: 10px 0;
+  font-size: 12px;
+  color: white;
+}
+
+.Certificate {
+  margin: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.Certificate a {
+  margin: 10px;
+  padding: 10px 0;
+  font-size: 12px;
+  color: white;
+}
+
+.single-Certificate {
+  margin: 10px;
+  width: 100%;
+  color: #fff;
+}
+
+.single-Certificate a {
+  margin: 10px;
+  padding: 10px 0;
+  font-size: 12px;
+  color: white;
 }
