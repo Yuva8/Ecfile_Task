@@ -669,62 +669,65 @@ body {
   width: 100%;
   background: #22076d;
   justify-items: center;
-  justify-content: center;
-}
-
-.footersec1 {
-  display: flex;
-  width: 100%;
-  background: #22076d;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .company-details {
   margin: 10px;
   width: 100%;
   color: #fff;
+  text-align: justify;
+  word-break: break-all;
 }
 
 @media (min-width: 920px) {
   .footersec {
     margin-top: 140px;
+    justify-content: space-evenly;
   }
   .company-details {
     margin-left: 100px;
     width: 100%;
     color: #fff;
+    text-align: justify;
+  }
+  .last {
+    background: #22076d;
+    color: #fff;
+    padding-left: 100px;
+    word-spacing: 10px;
+    font-weight: bold;
   }
 }
 
-.company-details a {
+.company-details div {
   margin: 10px;
   padding: 10px 0;
   font-size: 14px;
   color: white;
+
+  text-align: justify;
+}
+.company-details span {
+  margin: 10px;
+  padding: 10px 0;
+  font-size: 14px;
+  color: white;
+
+  text-align: justify;
 }
 
 .Certificate {
   margin: 10px;
-  width: 100%;
+  width: 20%;
   color: #fff;
+  justify-content: center;
 }
 
-.Certificate a {
-  margin: 10px;
-  padding: 10px 0;
-  font-size: 14px;
-  color: white;
-}
-
-.single-Certificate {
-  margin: 10px;
-  width: 100%;
+.last {
+  background: #22076d;
   color: #fff;
-}
-
-.single-Certificate a {
-  margin: 10px;
-  padding: 10px 0;
-  font-size: 14px;
-  color: white;
+  padding-left: 100px;
+  word-spacing: 10px;
+  font-weight: bold;
 }
