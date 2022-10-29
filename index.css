@@ -699,7 +699,7 @@ body {
 .company-details a {
   margin: 10px;
   padding: 10px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }
 
@@ -712,7 +712,7 @@ body {
 .Certificate a {
   margin: 10px;
   padding: 10px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }
 
@@ -725,6 +725,6 @@ body {
 .single-Certificate a {
   margin: 10px;
   padding: 10px 0;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
 }
