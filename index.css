@@ -670,7 +670,7 @@ body {
   background: #22076d;
   justify-items: center;
   justify-content: space-evenly;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .company-details {
@@ -685,6 +685,7 @@ body {
   .footersec {
     margin-top: 140px;
     justify-content: space-evenly;
+    font-size: 12px;
   }
   .company-details {
     margin-left: 100px;
@@ -698,7 +699,7 @@ body {
     padding-left: 100px;
     word-spacing: 10px;
     font-weight: bold;
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 
@@ -732,5 +733,5 @@ body {
   padding-left: 10px;
   word-spacing: 10px;
   font-weight: bold;
-  font-size: 9px;
+  font-size: 12px;
 }
