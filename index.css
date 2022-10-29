@@ -670,6 +670,7 @@ body {
   background: #22076d;
   justify-items: center;
   justify-content: space-evenly;
+  font-size: 9px;
 }
 
 .company-details {
@@ -697,13 +698,14 @@ body {
     padding-left: 100px;
     word-spacing: 10px;
     font-weight: bold;
+    font-size: 9px;
   }
 }
 
 .company-details div {
   margin: 10px;
   padding: 10px 0;
-  font-size: 14px;
+  /* font-size: 10px; */
   color: white;
 
   text-align: justify;
@@ -711,7 +713,7 @@ body {
 .company-details span {
   margin: 10px;
   padding: 10px 0;
-  font-size: 14px;
+  /* font-size: 10px; */
   color: white;
 
   text-align: justify;
@@ -727,7 +729,8 @@ body {
 .last {
   background: #22076d;
   color: #fff;
-  padding-left: 100px;
+  padding-left: 10px;
   word-spacing: 10px;
   font-weight: bold;
+  font-size: 9px;
 }
