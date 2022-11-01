@@ -23,7 +23,7 @@ body {
   text-align: center;
 }
 
-.btn {
+.btns {
   display: inline;
   border: #3640fc;
   background-color: #3640fc;
@@ -155,8 +155,8 @@ body {
   top: 0;
 }
 
-.container {
-  margin-top: 150px;
+.containers {
+  margin-top: 180px;
 }
 
 .item {
@@ -523,7 +523,7 @@ body {
     align-items: center;
     line-height: 1.6;
   }
-  .container {
+  .containers {
     max-width: 1000px;
     margin: 130px auto 0;
   }
@@ -674,11 +674,11 @@ body {
 }
 
 .company-details {
-  margin: 10px;
   width: 100%;
   color: #fff;
   text-align: justify;
   word-break: break-all;
+  margin-bottom: 12px;
 }
 
 @media (min-width: 920px) {
@@ -688,31 +688,28 @@ body {
     font-size: 12px;
   }
   .company-details {
-    margin-left: 100px;
     width: 100%;
     color: #fff;
     text-align: justify;
+    margin-bottom: 12px;
   }
   .last {
-    background: #22076d;
     color: #fff;
     padding-left: 100px;
     word-spacing: 10px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 .company-details div {
-  margin: 10px;
-  padding: 10px 0;
+  padding: 7px 0;
   /* font-size: 10px; */
   color: white;
 
   text-align: justify;
 }
 .company-details span {
-  margin: 10px;
   padding: 10px 0;
   /* font-size: 10px; */
   color: white;
@@ -728,10 +725,9 @@ body {
 }
 
 .last {
-  background: #22076d;
   color: #fff;
   padding-left: 10px;
   word-spacing: 10px;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
